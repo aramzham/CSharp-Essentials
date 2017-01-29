@@ -8,3 +8,12 @@ Here we'll be treating some crucial themes on C# and .Net Framework 4.6
 * [Indexers] (https://github.com/aramzham/CSharp-Essentials/tree/master/IndexersInCSharp)
 * [Inheritance] (https://github.com/aramzham/CSharp-Essentials/tree/master/InheritanceExamples)
 * [IClonable interface] (https://github.com/aramzham/CSharp-Essentials/tree/master/IClonableInterface)
+* [Extension methods] (https://github.com/aramzham/CSharp-Essentials/tree/master/ExtensionMethodExamples)
+* [System.IO] (https://github.com/aramzham/CSharp-Essentials/tree/master/Input-Output)
+* [Polymorphism] (https://github.com/aramzham/CSharp-Essentials/tree/master/Polymorphism)
+
+
+## Keywords
+C# 6.0
+.Net Framework 4.6
+Visaul Studio 2015

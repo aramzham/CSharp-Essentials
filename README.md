@@ -14,6 +14,6 @@ Here we'll be treating some crucial themes on C# and .Net Framework 4.6
 
 
 ## Keywords
-C# 6.0
-.Net Framework 4.6
-Visaul Studio 2015
+1. C# 6.0
+2. .Net Framework 4.6
+3. Visaul Studio 2015

@@ -1,6 +1,6 @@
-Inheritance
+# Inheritance
 
-Here are some good examples explaining the process of inheritance in C#.
+#### Here are some good examples explaining the process of inheritance in C#.
 
 In #FinancialOrganizations folder you'll see a basic FinancialInstitution class which will "give birth" to Banks, Credit organizations and Insurance companyies. All those institutions inherite all fields, properties and methods from base class. Meanwhile, they also add their own specific states and functionalities.
 

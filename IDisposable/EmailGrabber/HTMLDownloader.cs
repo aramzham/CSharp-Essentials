@@ -26,7 +26,7 @@ namespace EmailGrabber
 
             sw.Write(html);
         }
-
+        #region IDisposable pattern
         public void Dispose()
         {
             Dispose(true);
@@ -49,5 +49,6 @@ namespace EmailGrabber
         {
             Dispose(false);
         }
+        #endregion
     }
 }

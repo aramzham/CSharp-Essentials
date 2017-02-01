@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text.RegularExpressions;
 
 namespace SpamSender
@@ -21,6 +22,15 @@ namespace SpamSender
 
             var linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             return linkParser.IsMatch(url);
+        }
+
+        public void DownloadImages(string url)
+        {
+            var localFilename = @"c:\localpath\tofile.jpg";
+            using (var client = new WebClient())
+            {
+                client.DownloadFile(url, localFilename);
+            }
         }
 
         public void WriteEmailsInFile(string readFilePath, string writeFilePath)
@@ -76,7 +86,7 @@ namespace SpamSender
             {
                 text = File.ReadAllText(readFilePath);
             }
-            catch (FileLoadException e)
+            catch (FileNotFoundException e)
             {
                 Console.WriteLine(e.Message);
             }

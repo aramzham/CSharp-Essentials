@@ -18,13 +18,15 @@ namespace EmailGrabber
         public void Save(string url, string path)
         {
             if (url == null) throw new ArgumentNullException(nameof(url));
-            //if (url is something) // check if correct url
+            Uri uriResult;
+            if (Uri.TryCreate(url, UriKind.Absolute, out uriResult) && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps))
+            {
+                uriResult = new Uri(url);
 
-            var uri = new Uri(url);
+                var html = wc.DownloadString(uriResult);
 
-            var html = wc.DownloadString(uri);
-
-            sw.Write(html);
+                sw.Write(html);
+            }
         }
         #region IDisposable pattern
         public void Dispose()

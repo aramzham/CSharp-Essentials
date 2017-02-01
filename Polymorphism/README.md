@@ -64,5 +64,5 @@ The ultimate result of invoking those methods differently:
 
 
 ## Keywords
-C# 6.0
-.Net Framework 4.6
+> C# 6.0,
+> .Net Framework 4.6

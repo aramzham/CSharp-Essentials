@@ -11,15 +11,17 @@ namespace EmailGrabber
             var outputFile = @"outputtext.txt";
             var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             var HTMLFile = Path.Combine(desktop, outputFile);
-            const string site = "http://www.mail.ru/";
+            const string site = "https://geheniaraqel.wordpress.com/";
+
             using (var downloader = new HTMLDownloader(HTMLFile))
             {
                 downloader.Save(site, HTMLFile); 
             }
 
-            var mailFinder = new FindWriteEmails();
+            var grabber = new Grabber();
             var emailsFile = @"C:\Users\HP\Desktop\emails.txt";
-            mailFinder.WriteEmailsInFile(HTMLFile, emailsFile);
+            //grabber.WriteEmailsInFile(HTMLFile, emailsFile);
+            grabber.WriteUrlsInFile(HTMLFile, emailsFile);
         }
     }
 }

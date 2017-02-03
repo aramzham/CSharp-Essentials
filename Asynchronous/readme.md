@@ -10,4 +10,4 @@ This example provides an overview of how to use async programming. Simply put, w
 We can clearly see that while using synchronous programming we are blocking the main UI thread and the user is not able to do anything with the form (here, user cannot click the `Increase counter` button).
 
 **2)** Asynchronous programming provides us the possibility to make the user happier as it won't see anything like that (f.e. `(Not responding)` application or maybe he'll do something while the page is loading).
-![async](https://cloud.githubusercontent.com/assets/25085025/22598402/cf654ebc-ea4c-11e6-920d-6d1294431ee9.gif)
+![gif](https://cloud.githubusercontent.com/assets/25085025/22598669/a85048b2-ea4d-11e6-965b-cc364ceff928.gif)

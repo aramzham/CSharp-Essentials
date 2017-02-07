@@ -9,7 +9,10 @@ For example:
 public long Assets { get; set; }
 public long Liabilities { get; set; } 
 ```
-these properties are particular for Banks, so we add them in derived class(Bank).
+these properties are particular for Banks, so we add them in derived class(Bank). To better understand this topic, take a look at this glittering class diagram:
+
+<img width="698" alt="finorgdiagram" src="https://cloud.githubusercontent.com/assets/25085025/22687848/2f1e0936-ed43-11e6-9937-7e9fe902c219.png">
+
 
 The same logic applys to # ThreeDimensionalForms library. Ellipsoid and Parallelepiped are derived from base ThreeDShape class. This library allows you to create ellipsoid and parallelepiped objects and count their respective Volumes and outer Surfaces:
 ```javascript

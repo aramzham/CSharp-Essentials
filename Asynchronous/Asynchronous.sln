@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadSynchronously", "DownloadAsynchronously\DownloadSynchronously.csproj", "{431A9B53-C8AE-47C7-BC89-9FFE67CBD4D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadAsynchronously", "DownloadAsynchronously\DownloadAsynchronously.csproj", "{AB64A660-C248-4B67-926C-E6571628F305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{431A9B53-C8AE-47C7-BC89-9FFE67CBD4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{431A9B53-C8AE-47C7-BC89-9FFE67CBD4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{431A9B53-C8AE-47C7-BC89-9FFE67CBD4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{431A9B53-C8AE-47C7-BC89-9FFE67CBD4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB64A660-C248-4B67-926C-E6571628F305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB64A660-C248-4B67-926C-E6571628F305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB64A660-C248-4B67-926C-E6571628F305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB64A660-C248-4B67-926C-E6571628F305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

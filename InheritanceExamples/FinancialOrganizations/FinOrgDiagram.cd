@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FinancialOrganizations.FinancialInstitution">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAgBAAAAAABAAAAAAAAAEAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>FinancialInstitution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialOrganizations.Bank">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FinancialOrganizations.Bank.StatutoryCapitalMinimum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Bank.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialOrganizations.CreditOrganization">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreditOrganization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialOrganizations.InsuranceCompany">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>InsuranceCompany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

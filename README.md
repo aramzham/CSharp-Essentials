@@ -11,6 +11,7 @@ Here we'll be treating some crucial themes on C# and .Net Framework 4.6
 * [Extension methods] (https://github.com/aramzham/CSharp-Essentials/tree/master/ExtensionMethodExamples)
 * [System.IO] (https://github.com/aramzham/CSharp-Essentials/tree/master/Input-Output)
 * [Polymorphism] (https://github.com/aramzham/CSharp-Essentials/tree/master/Polymorphism)
+* [Asynchronous C\# 6.0] (https://github.com/aramzham/CSharp-Essentials/tree/master/Asynchronous)
 
 
 ## Keywords

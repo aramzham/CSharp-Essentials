@@ -209,14 +209,20 @@ namespace Tree
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return PreOrderTraversal();
         }
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
 
+        {
+            return GetEnumerator();
+        }
+        public IEnumerator<T> PreOrderTraversal() // need to be implemented
+        {
+            BinaryTreeNode<T> current = _head;
+
+            yield return current.Value;
+        }
         #endregion
     }
 }

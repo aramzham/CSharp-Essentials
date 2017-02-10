@@ -52,7 +52,7 @@ namespace Tree
                 if (node.Left == null) node.Left = new BinaryTreeNode<T>(value);
                 else AddTo(node.Left, value);   // turning again
             }
-            
+
             // if the value to add if grater or equal to the current value   
             else
             {
@@ -114,7 +114,7 @@ namespace Tree
 
         #endregion
 
-        #region Удаление узла дерева
+        #region Remove node from tree
 
         public bool Remove(T value)
         {
@@ -133,116 +133,70 @@ namespace Tree
 
             if (current.Right == null)
             {
-
                 // Remove the root
                 if (parent == null) _head = current.Left;
                 else
                 {
                     result = parent.CompareTo(current.Value);
 
+                    // if the parent node value is grater than removable node's, make current's left child node the left of the parent         
                     if (result > 0) parent.Left = current.Left;
-                        // Если значение узла родителя больше чем значение удаляемого узла -                 
-                        // сделать левого потомка текущего узла - левым потомком родительского узла.                 
 
-                        
-
-                    else if (result < 0)
-                    {
-
-                        // Если значение родительского узла меньше чем значение удаляемого узла -                  
-                        // сделать левого потомка текущего узла - правым потомком родительского узла.                 
-
-                        parent.Right = current.Left;
-
-                    }
+                    // if the parent node value is grater than removable node's, make current's left node the right one of the parent
+                    else if (result < 0) parent.Right = current.Left;
                 }
             }
 
-            // Второй вариант: удаляемый узел имеет правого потомка, у которого нет левого потомка.
+            // Second version: the removable node has a right child which doesn't have a left one
 
             else if (current.Right.Left == null)
             {
                 current.Right.Left = current.Left;
 
-                // Удаляем корень 
-                if (parent == null)
-                {
-                    _head = current.Right;
-                }
-
+                // Removing the root
+                if (parent == null) _head = current.Right;
                 else
                 {
                     result = parent.CompareTo(current.Value);
-                    if (result > 0)
-                    {
-                        // Если значение родительского узла больше чем значение удаляемого узла -                  
-                        // сделать правого потомка текущего узла - левым потомком родительского узла. 
 
-                        parent.Left = current.Right;
-                    }
-                    else if (result < 0)
-                    {
-                        // Если значение родительского узла меньше чем значение удаляемого узла -                  
-                        // сделать правого потомка текущего узла - правым потомком родительского узла. 
+                    // if the parent node value is grater than removable node's, make current's right child node the left of the parent
+                    if (result > 0) parent.Left = current.Right;
 
-                        parent.Right = current.Right;
-
-                    }
+                    // if the parent node value is smaller than removable node's, make current's right child node the right of the parent
+                    else if (result < 0) parent.Right = current.Right;
                 }
             }
-            // Третий вариант: удаляемый узел имеет правого потомка, у которого есть левый потомок.
+            // Third version: the removable node has a right child which has a left one
 
             else
             {
+                var leftmost = current.Right.Left;
+                var leftmostParent = current.Right;
 
-                BinaryTreeNode<T> leftmost = current.Right.Left;
-                BinaryTreeNode<T> leftmostParent = current.Right;
-
-                // поиск крайнего левого потомка 
+                // finding the leftmost node
                 while (leftmost.Left != null)
-
                 {
                     leftmostParent = leftmost;
                     leftmost = leftmost.Left;
                 }
 
-                // Правое поддерево крайнего левого узла, становится левым поддеревом его родительского узла.         
+                // Right node of leftmost node becomes left node of its parent one         
                 leftmostParent.Left = leftmost.Right;
 
-                // Присваиваем крайнему левому узлу в качестве левого потомка - левый потомок удаляемого узла,
-                // а в качестве правого потомка - правый потомок удаляемого узла. 
-
+                // Assigning the leftmost node as the left child the left node of the removable one, and for the right child - the right one of the removable node
                 leftmost.Left = current.Left;
                 leftmost.Right = current.Right;
 
-                if (parent == null)
-                {
-                    _head = leftmost;
-                }
-
+                if (parent == null) _head = leftmost;
                 else
-
                 {
                     result = parent.CompareTo(current.Value);
 
-                    if (result > 0)
-                    {
+                    // if the value of the parent value is grater than the current one, make the leftmost child node the left node of its parent
+                    if (result > 0) parent.Left = leftmost;
 
-                        // Если значение родительского узла(parent), больше значения удаляемого узла (current) -                  
-                        // сделать левого крайнего потомка удаляемого узла(leftmost)  - левым потомком его родителя(parent). 
-
-                        parent.Left = leftmost;
-                    }
-
-                    else if (result < 0)
-
-                    {
-
-                        // Если значение родительского узла(parent), меньше значения удаляемого узла (current) -                  
-                        // сделать левого крайнего потомка удаляемого узла(leftmost) - правым потомком его родителя(parent).
-
-                        parent.Right = leftmost;
-                    }
+                    // if the value of parent node is inferior to removable node value, make the leftmost node of the removable one - the right child of its parent
+                    else if (result < 0) parent.Right = leftmost;
                 }
             }
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArrays", "DynamicArrays\DynamicArrays.csproj", "{50F26251-884B-4443-AB3E-B8D5E28AA68D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{7C3C2D90-E760-4546-95DB-22A2BAC02FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{50F26251-884B-4443-AB3E-B8D5E28AA68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F26251-884B-4443-AB3E-B8D5E28AA68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F26251-884B-4443-AB3E-B8D5E28AA68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3C2D90-E760-4546-95DB-22A2BAC02FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3C2D90-E760-4546-95DB-22A2BAC02FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3C2D90-E760-4546-95DB-22A2BAC02FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3C2D90-E760-4546-95DB-22A2BAC02FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

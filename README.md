@@ -9,6 +9,7 @@ Here we'll be treated some crucial themes on C# and .Net Framework 4.6
 * [Inheritance](https://github.com/aramzham/CSharp-Essentials/tree/master/InheritanceExamples)
 * [IClonable interface](https://github.com/aramzham/CSharp-Essentials/tree/master/IClonableInterface)
 * [Extension methods](https://github.com/aramzham/CSharp-Essentials/tree/master/ExtensionMethodExamples)
+* [LINQ](https://github.com/aramzham/CSharp-Essentials/tree/master/LINQ)
 * [System.IO](https://github.com/aramzham/CSharp-Essentials/tree/master/Input-Output)
 * [Polymorphism](https://github.com/aramzham/CSharp-Essentials/tree/master/Polymorphism)
 * [Asynchronous C\# 6.0](https://github.com/aramzham/CSharp-Essentials/tree/master/Asynchronous)

@@ -20,6 +20,6 @@ No one would argue that this will work flawlessly. But take a look how LINQ deal
 ```csharp
 int count = collection.Count(i => i.StartsWith("A"));
 ```
-That's it! Nothing more needed. :+1:
+That's it! Nothing more needed. You dramaticaly reduce the amount of keystrokes. :+1:
 
 Personally, i like this one-line solutions. Still, it's a matter of taste :)

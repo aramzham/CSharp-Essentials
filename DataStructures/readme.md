@@ -24,7 +24,7 @@ private void GrowArray()
 ```
 Apart of MyList<T> you can find examples on `Stack` and `Queue`. Respective functionalities are implemented, like `Push()`, `Pop()`, `Peek()` for `MyStack<T>` and `Enqueue()`, `Dequeue()` and `Peek()` for `MyQueue<T>` classes.
 
-To better understand those 2 concepts, it's better to look at these pictures:
+To better understand those 2 concepts, take a look at these pictures:
 
 ## Stack : LIFO (last in, first out)
 ![2660142](https://cloud.githubusercontent.com/assets/25085025/22440270/38033712-e74c-11e6-8b91-c278f629f6be.jpg)

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IList
 {
@@ -10,6 +6,14 @@ namespace IList
     {
         static void Main(string[] args)
         {
+            var mc = new MyCollection { "Join", "us", "and", "you", "won't", "regret" };
+
+            foreach (var item in mc)
+            {
+                Console.Write($"{item} ");
+            }
+
+            Console.ReadKey();
         }
     }
 }

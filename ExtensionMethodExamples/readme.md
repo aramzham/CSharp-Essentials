@@ -7,4 +7,4 @@ The most common extension methods are the **LINQ** standard query operators.
 
 Extension methods are very powerful tools that will faciliate your work. They help you to add some fuctionality into existing classes and structures, meanwhile not touching their formation.
 
-Take a closer look on our **outstanging** [examples of extension methods on string] (https://github.com/aramzham/ExtensionMethodExamples/tree/master/ExtensionMethodExamples/ExtensionMethods) on ![2p4i](https://cloud.githubusercontent.com/assets/25085025/21995752/0803e500-dc40-11e6-8ea0-733f5af7251e.png) (version 6.0).
+Take a closer look on our <i>outstanging</i> <a href="https://github.com/aramzham/ExtensionMethodExamples/tree/master/ExtensionMethodExamples/ExtensionMethods">examples of extension methods on string</a> on <img src="https://cloud.githubusercontent.com/assets/25085025/21995752/0803e500-dc40-11e6-8ea0-733f5af7251e.png" width=30% align="middle"/>![2p4i]() (version 6.0).

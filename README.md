@@ -1,4 +1,4 @@
-# C\#-Essentials
+# C\# Essentials
 Here we'll be treated some crucial themes on C# and .Net Framework 4.6
 
 <img width="350" alt="untitled" src="https://cloud.githubusercontent.com/assets/25085025/22407334/fd8cf272-e67d-11e6-935d-b0195fe21ac7.png">
@@ -15,7 +15,9 @@ Here we'll be treated some crucial themes on C# and .Net Framework 4.6
 * [Asynchronous C\# 6.0](https://github.com/aramzham/CSharp-Essentials/tree/master/Asynchronous)
 
 
-## Keywords
-1. C# 6.0
-2. .Net Framework 4.6
-3. Visaul Studio 2015
+<h3>Keywords</h3>
+<ol type="1">
+<li>C# 6.0</li>
+<li>.Net Framework 4.6</li>
+<li>Visaul Studio 2015</li>
+</ol>

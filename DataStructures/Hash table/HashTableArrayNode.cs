@@ -25,14 +25,11 @@ namespace Hash_table
                 {
                     // if such key exists, throw an exception
 
-                    if (pair.Key.Equals(key))
-                    {
-                        throw new ArgumentException("Такой ключ уже существует");
-                    }
+                    if (pair.Key.Equals(key)) throw new ArgumentException("Such key already exists");
                 }
             }
 
-            // Добавление нового узла.     
+            // adding a new node.     
             _items.AddLast(new HashTableNodePair<TKey, TValue>(key, value));
         }
 
@@ -58,10 +55,7 @@ namespace Hash_table
                 }
             }
 
-            if (!updated)
-            {
-                throw new ArgumentException("Такой ключ не был найден");
-            }
+            if (!updated) throw new ArgumentException("Key couldn't be found");
         }
 
         #endregion

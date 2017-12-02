@@ -27,17 +27,13 @@ namespace Hash_table
 
         public HashTable(int initialCapacity)
         {
-            if (initialCapacity < 1)
-            {
-                throw new ArgumentOutOfRangeException("Given size is less than 1");
-            }
+            if (initialCapacity < 1) throw new ArgumentOutOfRangeException("Given size is less than 1");
 
             _array = new HashTableArray<TKey, TValue>(initialCapacity);
 
             // Increasing the size of the array
 
             _maxItemsAtCurrentSize = (int)(initialCapacity * _fillFactor) + 1;
-
         }
         #region Add an element into hash table
 

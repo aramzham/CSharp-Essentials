@@ -19,5 +19,5 @@ Here we'll be treated some crucial themes on C# and .Net Framework 4.6
 <ol type="1">
 <li>C# 6.0</li>
 <li>.Net Framework 4.6</li>
-<li>Visaul Studio 2015</li>
+<li>Visual Studio 2015</li>
 </ol>

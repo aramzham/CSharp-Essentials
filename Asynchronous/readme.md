@@ -4,6 +4,9 @@ You can avoid performance bottlenecks and enhance the overall responsiveness of 
 
 This example provides an overview of how to use async programming. Simply put, we'll be showing a clear illustration on `WinForms`.
 
+##### To remember
+*Thread class represents an object-oriented wrapper around a given path of execution within a particular AppDomain.*
+
 **1)** How works the same thing with synchronous programming:
 ![sync](https://cloud.githubusercontent.com/assets/25085025/22598298/659ec224-ea4c-11e6-96d8-d31f2c107875.gif)
 

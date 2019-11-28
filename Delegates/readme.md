@@ -1,4 +1,7 @@
 # Delegates
+
+A delegate is a type-safe, object-oriented, function pointer.
+
 Examples on delegates of C# 6.0
 
 [Delegate testing] (https://github.com/aramzham/Delegates/tree/master/DelegateTesting/Test) consists of some test on C# delegates. In a small example will be illustrated a solution on ITVDN task.

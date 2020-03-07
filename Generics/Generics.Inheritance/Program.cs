@@ -11,7 +11,8 @@ namespace Generics.Inheritance
         static void Main(string[] args)
         {
             SameDataLinkedList();
-
+            DifferentDataLinkedList();
+            
             Console.ReadKey();
         }
 
@@ -20,6 +21,14 @@ namespace Generics.Inheritance
             var head = new NodeGeneric<char>('C');
             head = new NodeGeneric<char>('B', head);
             head = new NodeGeneric<char>('A', head);
+            Console.WriteLine(head.ToString());
+        }
+
+        static void DifferentDataLinkedList() 
+        {
+            NodeNonGeneric head = new TypedNode<char>('.');
+            head = new TypedNode<DateTime>(DateTime.Now, head);
+            head = new TypedNode<string>("Today is ", head);
             Console.WriteLine(head.ToString());
         }
     }

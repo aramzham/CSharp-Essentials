@@ -38,6 +38,12 @@ namespace Interfaces.TestConsole
         }
     }
 
+    internal sealed class SimpleType : IDisposable
+    {
+        public void Dispose() { Console.WriteLine("public Dispose"); }
+        void IDisposable.Dispose() { Console.WriteLine("IDisposable Dispose"); }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -51,6 +57,13 @@ namespace Interfaces.TestConsole
 
             var d = new Derived();
             ((IDisposable)d).Dispose();
+
+            var simple = new SimpleType();
+            simple.Dispose();
+
+            // explicit interface method implementation(EIMI)
+            var eimi = (IDisposable)simple;
+            eimi.Dispose();
 
             Console.ReadKey();
         }

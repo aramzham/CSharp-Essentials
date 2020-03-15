@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace EssentialTypes.Strings.StringBuilders
     {
         static void Main(string[] args)
         {
-            var sb = new StringBuilder(1,2);
+            var sb = new StringBuilder(1, 2);
             Console.WriteLine($"Max capacity = {sb.MaxCapacity}");
             Console.WriteLine($"Capacity = {sb.Capacity}");
 

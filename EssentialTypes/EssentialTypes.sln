@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Strings.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Strings.StringBuilders", "EssentialTypes.Strings.StringBuilders\EssentialTypes.Strings.StringBuilders.csproj", "{1CF90F05-83EA-4F55-9E2E-13F0EB3115EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{40B61286-EAA1-4B6D-9086-413202D4C3D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Strings.Formats", "EssentialTypes.Strings.Formats\EssentialTypes.Strings.Formats.csproj", "{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,19 @@ Global
 		{1CF90F05-83EA-4F55-9E2E-13F0EB3115EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF90F05-83EA-4F55-9E2E-13F0EB3115EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF90F05-83EA-4F55-9E2E-13F0EB3115EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0F83C94-9720-4461-9B24-95539445FB52} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
+		{BD60F190-30D2-4508-AB49-DAC172B758A2} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
+		{1CF90F05-83EA-4F55-9E2E-13F0EB3115EE} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
+		{39A07CD1-064A-41B9-B1EA-7D9CECF9E4CE} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE266549-128C-48C3-B7B7-3A3C58FB5064}

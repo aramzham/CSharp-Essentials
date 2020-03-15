@@ -3,10 +3,27 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace EssentialTypes.Strings.Formats
 {
+    internal sealed class MyFomatProvider : IFormatProvider, ICustomFormatter
+    {
+        public string Format(string format, object arg, IFormatProvider formatProvider)
+        {
+            var formattable = arg as IFormattable;
+            var s = formattable is null ? arg.ToString() : formattable.ToString(format, formatProvider);
+
+            return arg is int ? $"<b>{s}</b>" : s;
+        }
+
+        public object GetFormat(Type formatType)
+        {
+            return formatType == typeof(ICustomFormatter) ? this : Thread.CurrentThread.CurrentCulture.GetFormat(formatType);
+        }
+    }
+
     class MyClass : IFormattable
     {
         private int _value;
@@ -30,6 +47,14 @@ namespace EssentialTypes.Strings.Formats
             Console.WriteLine(m.ToString());
             Console.WriteLine(m.ToString("C", new CultureInfo("ru-RU")));
             Console.WriteLine(m.ToString("F", CultureInfo.InvariantCulture));
+
+            Console.WriteLine("Enter two numbers...");
+            var a = int.Parse(Console.ReadLine());
+            var b = int.Parse(Console.ReadLine());
+            var c = a + b;
+            var sb = new StringBuilder();
+            sb.AppendFormat(new MyFomatProvider(), "{0} + {1} = {2} and this is {3}", a, b, c, a + b == c);
+            Console.WriteLine(sb);
         }
     }
 }

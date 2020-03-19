@@ -42,7 +42,7 @@ namespace EssentialTypes.Strings.Formats
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             var m = new MyClass(10);
             Console.WriteLine(m.ToString());
             Console.WriteLine(m.ToString("C", new CultureInfo("ru-RU")));

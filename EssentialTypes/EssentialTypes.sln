@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{982467
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Arrays.NonZeroBased", "EssentialTypes.Arrays.NonZeroBased\EssentialTypes.Arrays.NonZeroBased.csproj", "{7290B6CA-E0B4-43B9-BF21-2339E644E613}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{BE46F0B9-175E-4388-A5A3-9771F8C30960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Delegates.Chaining", "EssentialTypes.Delegates.Chaining\EssentialTypes.Delegates.Chaining.csproj", "{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{7290B6CA-E0B4-43B9-BF21-2339E644E613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7290B6CA-E0B4-43B9-BF21-2339E644E613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7290B6CA-E0B4-43B9-BF21-2339E644E613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{C6022036-533B-4508-BD8F-9DA6C71F894F} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
 		{52C6577D-E217-4902-AA44-1D3749A73278} = {40B61286-EAA1-4B6D-9086-413202D4C3D5}
 		{7290B6CA-E0B4-43B9-BF21-2339E644E613} = {98246796-1EEE-43E9-848F-3522FDE139A6}
+		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB} = {BE46F0B9-175E-4388-A5A3-9771F8C30960}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE266549-128C-48C3-B7B7-3A3C58FB5064}

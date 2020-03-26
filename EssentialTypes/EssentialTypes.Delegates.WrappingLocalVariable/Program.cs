@@ -75,7 +75,7 @@ namespace EssentialTypes.Delegates.WrappingLocalVariable
             var done = new AutoResetEvent(false);
 
             for (int n = 0; n < squares.Length; n++)
-            {
+            {                
                 ThreadPool.QueueUserWorkItem(x =>
                 {
                     var num = (int)x;

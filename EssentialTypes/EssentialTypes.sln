@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Delegates.Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.Delegates.WrappingLocalVariable", "EssentialTypes.Delegates.WrappingLocalVariable\EssentialTypes.Delegates.WrappingLocalVariable.csproj", "{09D3A036-9F78-4179-A0E5-E45D2D27CFB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NullableValueTypes", "NullableValueTypes", "{067CE8B5-716C-4EFC-9FDE-78D89AD5323B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTypes.NullableTypes.Structure", "EssentialTypes.NullableTypes.Structure\EssentialTypes.NullableTypes.Structure.csproj", "{DBA31794-B732-4048-B798-4485E689FFC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{09D3A036-9F78-4179-A0E5-E45D2D27CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D3A036-9F78-4179-A0E5-E45D2D27CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D3A036-9F78-4179-A0E5-E45D2D27CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA31794-B732-4048-B798-4485E689FFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA31794-B732-4048-B798-4485E689FFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA31794-B732-4048-B798-4485E689FFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA31794-B732-4048-B798-4485E689FFC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,7 @@ Global
 		{7290B6CA-E0B4-43B9-BF21-2339E644E613} = {98246796-1EEE-43E9-848F-3522FDE139A6}
 		{B6F5A4E1-DD05-4DCB-BB9B-FF29F805C5EB} = {BE46F0B9-175E-4388-A5A3-9771F8C30960}
 		{09D3A036-9F78-4179-A0E5-E45D2D27CFB2} = {BE46F0B9-175E-4388-A5A3-9771F8C30960}
+		{DBA31794-B732-4048-B798-4485E689FFC9} = {067CE8B5-716C-4EFC-9FDE-78D89AD5323B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE266549-128C-48C3-B7B7-3A3C58FB5064}

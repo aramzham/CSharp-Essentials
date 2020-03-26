@@ -31,7 +31,15 @@ namespace EssentialTypes.NullableTypes.ClrSupport
             obj = null;
             // "Unbox" it into a Nullable<Int32> and into an Int32
             a = (int?)obj; // a = null
-            b = (int)obj; // NullReferenceException
+            b = (int)obj; // NullReferenceException        
+
+            // CLR actually lies and returns the type T instead of the type Nullable<T>
+            Console.WriteLine($"Type of a is {a.GetType()}"); // is Int32
+
+            // Nullable<T> type does not implement the IComparable<Int32> interface as Int32 does
+            int? m = 5;
+            int result = ((IComparable)m).CompareTo(5); // Compiles & runs OK
+            Console.WriteLine(result); // 0
         }
     }
 }

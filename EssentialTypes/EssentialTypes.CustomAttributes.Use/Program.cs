@@ -53,7 +53,7 @@ namespace EssentialTypes.CustomAttributes.Use
         {
             var attributes = attributeTarget.GetCustomAttributes<Attribute>();
             Console.WriteLine("Attributes applied to {0}: {1}",
-            attributeTarget.Name, (attributes.Count() == 0 ? "None" : string.Empty));
+            attributeTarget.Name, (!attributes.Any() ? "None" : string.Empty));
             foreach (Attribute attribute in attributes)
             {
                 // Display the type of each applied attribute

@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GarbageCollection", "Garbag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreFacilities.GarbageCollection.Debugging", "CoreFacilities.GarbageCollection.Debugging\CoreFacilities.GarbageCollection.Debugging.csproj", "{4650AE43-C055-4BE3-94EC-D0E8A421E38C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreFacilities.GarbageCollection.Notification", "CoreFacilities.GarbageCollection.Notification\CoreFacilities.GarbageCollection.Notification.csproj", "{869EB041-23DF-49DA-92F9-B2A4B8CC2A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{4650AE43-C055-4BE3-94EC-D0E8A421E38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4650AE43-C055-4BE3-94EC-D0E8A421E38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4650AE43-C055-4BE3-94EC-D0E8A421E38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869EB041-23DF-49DA-92F9-B2A4B8CC2A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869EB041-23DF-49DA-92F9-B2A4B8CC2A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869EB041-23DF-49DA-92F9-B2A4B8CC2A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869EB041-23DF-49DA-92F9-B2A4B8CC2A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E3EF016F-F4A0-40EE-A303-A708D4232A4B} = {5B0E5FF7-DA95-4F4D-8533-BC371E2B5DF5}
 		{4650AE43-C055-4BE3-94EC-D0E8A421E38C} = {ACD7BB48-F090-49AD-9B57-4A6C6253C417}
+		{869EB041-23DF-49DA-92F9-B2A4B8CC2A12} = {ACD7BB48-F090-49AD-9B57-4A6C6253C417}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64BCDAD7-5DF9-4401-AF51-2F6CF9481CBB}

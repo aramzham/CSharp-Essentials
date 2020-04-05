@@ -9,6 +9,12 @@ namespace CoreFacilities.GarbageCollection.Debugging
 {
     class Program
     {
+        // GC triggers:
+        // 1. Code explicitly calls System.GC ’s static Collect method
+        // 2. Windows is reporting low memory conditions
+        // 3. The CLR is unloading an AppDomain => GC clears everything
+        // 4. The CLR is shutting down => GC does nothing, Windows will clear itself
+
         static void Main(string[] args)
         {
             // When you compile your assembly by using the C# compiler’s /debug switch, the compiler applies a

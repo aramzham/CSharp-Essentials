@@ -9,6 +9,7 @@ namespace CoreFacilities.GarbageCollection.Notification
 {
     class Program
     {
+        // use perfmon.exe, PerfView, Event Tracing for Windows (ETW), SOS Debugging Extension for monitoring
         private static int _count = 0;
         static void Main(string[] args)
         {
@@ -30,7 +31,7 @@ namespace CoreFacilities.GarbageCollection.Notification
 
         private static void GCNotificationOnGCDone(int obj)
         {
-            Console.Beep();
+            //Console.Beep();
             Console.WriteLine($"GC collection started in generation {obj}, _count = {_count}");
         }
     }

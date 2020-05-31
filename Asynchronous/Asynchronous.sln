@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadAsynchronously", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.FgVsBg", "Asynchronous.FgVsBg\Asynchronous.FgVsBg.csproj", "{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadPoolQueueWorkItem", "Asynchronous.ThreadPoolQueueWorkItem\Asynchronous.ThreadPoolQueueWorkItem.csproj", "{245A5488-16D0-44E8-BA56-560DD3FE9B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245A5488-16D0-44E8-BA56-560DD3FE9B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A5488-16D0-44E8-BA56-560DD3FE9B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A5488-16D0-44E8-BA56-560DD3FE9B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A5488-16D0-44E8-BA56-560DD3FE9B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

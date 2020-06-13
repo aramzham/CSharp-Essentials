@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.CooperativeCan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.LinkedTokenSource", "Asynchronous.LinkedTokenSource\Asynchronous.LinkedTokenSource.csproj", "{C9757B0E-40A5-463D-8068-46A3B4AB6482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.TaskWait", "Asynchronous.TaskWait\Asynchronous.TaskWait.csproj", "{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C9757B0E-40A5-463D-8068-46A3B4AB6482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9757B0E-40A5-463D-8068-46A3B4AB6482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9757B0E-40A5-463D-8068-46A3B4AB6482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

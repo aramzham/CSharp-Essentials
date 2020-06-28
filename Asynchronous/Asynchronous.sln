@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.TaskWait", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ContinueWith", "Asynchronous.ContinueWith\Asynchronous.ContinueWith.csproj", "{59D30EDA-E13E-4A80-A83A-40473354D7FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ParallelLinq", "Asynchronous.ParallelLinq\Asynchronous.ParallelLinq.csproj", "{6FDBC0F3-6D40-4617-94A2-B99283753588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{59D30EDA-E13E-4A80-A83A-40473354D7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D30EDA-E13E-4A80-A83A-40473354D7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D30EDA-E13E-4A80-A83A-40473354D7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDBC0F3-6D40-4617-94A2-B99283753588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDBC0F3-6D40-4617-94A2-B99283753588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDBC0F3-6D40-4617-94A2-B99283753588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBC0F3-6D40-4617-94A2-B99283753588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

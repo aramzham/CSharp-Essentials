@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ParallelLinq",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadPoolThreadCount", "Asynchronous.ThreadPoolThreadCount\Asynchronous.ThreadPoolThreadCount.csproj", "{67D51CC2-FBBD-4967-9547-41E816611C7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.AsyncFunctionsInit", "Asynchronous.AsyncFunctionsInit\Asynchronous.AsyncFunctionsInit.csproj", "{9A514122-662E-44B6-ADFE-61DC3F39DCF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{67D51CC2-FBBD-4967-9547-41E816611C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D51CC2-FBBD-4967-9547-41E816611C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D51CC2-FBBD-4967-9547-41E816611C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A514122-662E-44B6-ADFE-61DC3F39DCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A514122-662E-44B6-ADFE-61DC3F39DCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A514122-662E-44B6-ADFE-61DC3F39DCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A514122-662E-44B6-ADFE-61DC3F39DCF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

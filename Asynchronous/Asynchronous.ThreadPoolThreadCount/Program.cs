@@ -8,6 +8,7 @@ namespace Asynchronous.ThreadPoolThreadCount
     {
         static void Main(string[] args)
         {
+            // it's highly discouraged to use these methods
             // GetMaxThreads , SetMaxThreads , GetMinТhreads , SetMinThreads , and GetAvailableThreads
             ThreadPool.SetMinThreads(0, 0); // min is (4, 4) for my machine
             ThreadPool.SetMaxThreads(13, 5);

@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.AsyncFunctions
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.EventBasedModelToTask", "Asynchronous.EventBasedModelToTask\Asynchronous.EventBasedModelToTask.csproj", "{DF35FBC6-F458-4BF5-9560-D421701A8276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SingleInstanceApp", "Asynchronous.SingleInstanceApp\Asynchronous.SingleInstanceApp.csproj", "{B69B7F4A-226D-456F-BD0E-7065558EBB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SyncConstructSpeedTest", "Asynchronous.SyncConstructSpeedTest\Asynchronous.SyncConstructSpeedTest.csproj", "{B35F1008-6505-442C-B050-751176A66BBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{DF35FBC6-F458-4BF5-9560-D421701A8276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF35FBC6-F458-4BF5-9560-D421701A8276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF35FBC6-F458-4BF5-9560-D421701A8276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69B7F4A-226D-456F-BD0E-7065558EBB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69B7F4A-226D-456F-BD0E-7065558EBB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69B7F4A-226D-456F-BD0E-7065558EBB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69B7F4A-226D-456F-BD0E-7065558EBB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35F1008-6505-442C-B050-751176A66BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35F1008-6505-442C-B050-751176A66BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35F1008-6505-442C-B050-751176A66BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35F1008-6505-442C-B050-751176A66BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

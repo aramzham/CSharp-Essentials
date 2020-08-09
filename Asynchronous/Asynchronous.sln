@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SingleInstance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SyncConstructSpeedTest", "Asynchronous.SyncConstructSpeedTest\Asynchronous.SyncConstructSpeedTest.csproj", "{B35F1008-6505-442C-B050-751176A66BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadSafeSingleton", "Asynchronous.ThreadSafeSingleton\Asynchronous.ThreadSafeSingleton.csproj", "{653F09BF-A513-4209-83E7-F0D22FEC116B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.Blocking_Collection", "Asynchronous.Blocking_Collection\Asynchronous.Blocking_Collection.csproj", "{02EA6770-4EE4-4602-ACA4-7861A8348EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{B35F1008-6505-442C-B050-751176A66BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B35F1008-6505-442C-B050-751176A66BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B35F1008-6505-442C-B050-751176A66BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653F09BF-A513-4209-83E7-F0D22FEC116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653F09BF-A513-4209-83E7-F0D22FEC116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653F09BF-A513-4209-83E7-F0D22FEC116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653F09BF-A513-4209-83E7-F0D22FEC116B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,30 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Reflection;
 using System.Threading;
+
+// Set assembly's culture to Swiss German
+// [assembly:AssemblyCulture("de­CH")]
+[assembly:AssemblyCulture("")]
+
+// FileDescription version information:
+// [assembly: AssemblyTitle("MultiFileLibrary.dll")]
+// Comments version information:
+[assembly: AssemblyDescription("This assembly contains Blocking_Collection's types")]
+// CompanyName version information:
+// [assembly: AssemblyCompany("BetConstruct")]
+// ProductName version information:
+// [assembly: AssemblyProduct("BetConstruct (R) MultiFileLibrary's Type Library")]
+// LegalCopyright version information:
+[assembly: AssemblyCopyright("Copyright (c) BetConstruct 2020")]
+// LegalTrademarks version information:
+[assembly:AssemblyTrademark("Blocking_Collection is a registered trademark of BetConstruct")]
+// AssemblyVersion version information:
+// [assembly: AssemblyVersion("3.0.0.0")]
+// FILEVERSION/FileVersion version information:
+// [assembly: AssemblyFileVersion("1.0.0.0")]
+// PRODUCTVERSION/ProductVersion version information:
+// [assembly: AssemblyInformationalVersion("2.0.0.0")]
 
 namespace Asynchronous.Blocking_Collection
 {

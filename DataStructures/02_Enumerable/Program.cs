@@ -10,19 +10,36 @@ namespace _02_Enumerable
         {
             var rootNode = new ListNode() { Value = 10 };
             rootNode.Add(20).Add(30);
+
+            #region Iterator pattern
+
             var enumerator = rootNode.GetEnumerator();
-            while (enumerator.MoveNext())
+            try
             {
-                var item = enumerator.Current;
-                Console.WriteLine(item);
+                while (enumerator.MoveNext())
+                {
+                    var item = enumerator.Current;
+                    Console.WriteLine(item);
+                }
             }
-            enumerator.Reset();
+            finally
+            {
+                enumerator.Reset();
+            }
+
+            #endregion
+
+            // compiler will look for a GetEnumerator function
+            foreach (var node in rootNode)
+            {
+                
+            }
 
             Console.ReadKey();
         }
     }
 
-    public class ListNode : IEnumerable
+    public class ListNode : IEnumerable // this inheritance is not obligatory
     {
         public int Value { get; set; }
         private ListNode _next;

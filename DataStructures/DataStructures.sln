@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArrays", "DynamicArrays\DynamicArrays.csproj", "{50F26251-884B-4443-AB3E-B8D5E28AA68D}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash table", "Hash table\Hash table.csproj", "{0F91EE4D-519C-4C2A-A1A6-11280A276E80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IList", "IList\IList.csproj", "{DB4F4C05-CE8D-4003-A4A0-FDAD2CA3FD9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections", "{352A8B81-E0F0-4E19-A018-2E845A7DB024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_LinkedList", "01_LinkedList\01_LinkedList.csproj", "{F31FD599-9112-472B-8C3A-C221C15CC0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Enumerable", "02_Enumerable\02_Enumerable.csproj", "{6ABA021A-EEEB-4BC8-B8FD-702B294552D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +39,23 @@ Global
 		{DB4F4C05-CE8D-4003-A4A0-FDAD2CA3FD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB4F4C05-CE8D-4003-A4A0-FDAD2CA3FD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB4F4C05-CE8D-4003-A4A0-FDAD2CA3FD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31FD599-9112-472B-8C3A-C221C15CC0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31FD599-9112-472B-8C3A-C221C15CC0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31FD599-9112-472B-8C3A-C221C15CC0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31FD599-9112-472B-8C3A-C221C15CC0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABA021A-EEEB-4BC8-B8FD-702B294552D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABA021A-EEEB-4BC8-B8FD-702B294552D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABA021A-EEEB-4BC8-B8FD-702B294552D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABA021A-EEEB-4BC8-B8FD-702B294552D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F31FD599-9112-472B-8C3A-C221C15CC0DC} = {352A8B81-E0F0-4E19-A018-2E845A7DB024}
+		{6ABA021A-EEEB-4BC8-B8FD-702B294552D7} = {352A8B81-E0F0-4E19-A018-2E845A7DB024}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C323688-DE10-480C-AE06-A3D5B518B7BF}
 	EndGlobalSection
 EndGlobal

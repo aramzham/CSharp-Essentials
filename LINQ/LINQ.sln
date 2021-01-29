@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQToObjects", "LINQToObje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Linq", "01_Linq\01_Linq.csproj", "{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_AnonymousTypes_ValueTuples", "02_AnonymousTypes_ValueTuples\02_AnonymousTypes_ValueTuples.csproj", "{779EBBBB-197A-472A-AFA0-1B746EE2D62A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779EBBBB-197A-472A-AFA0-1B746EE2D62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779EBBBB-197A-472A-AFA0-1B746EE2D62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779EBBBB-197A-472A-AFA0-1B746EE2D62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779EBBBB-197A-472A-AFA0-1B746EE2D62A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

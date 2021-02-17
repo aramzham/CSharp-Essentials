@@ -1,37 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadAsynchronously", "DownloadAsynchronously\DownloadAsynchronously.csproj", "{AB64A660-C248-4B67-926C-E6571628F305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.FgVsBg", "Asynchronous.FgVsBg\Asynchronous.FgVsBg.csproj", "{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.FgVsBg", "Asynchronous.FgVsBg\Asynchronous.FgVsBg.csproj", "{C3ED5743-76E3-4749-876B-6E7E1E86B0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadPoolQueueWorkItem", "Asynchronous.ThreadPoolQueueWorkItem\Asynchronous.ThreadPoolQueueWorkItem.csproj", "{245A5488-16D0-44E8-BA56-560DD3FE9B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ThreadPoolQueueWorkItem", "Asynchronous.ThreadPoolQueueWorkItem\Asynchronous.ThreadPoolQueueWorkItem.csproj", "{245A5488-16D0-44E8-BA56-560DD3FE9B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.CooperativeCancellation", "Asynchronous.CooperativeCancellation\Asynchronous.CooperativeCancellation.csproj", "{3F377DD9-5093-4951-89CD-EACC9F7941B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.CooperativeCancellation", "Asynchronous.CooperativeCancellation\Asynchronous.CooperativeCancellation.csproj", "{3F377DD9-5093-4951-89CD-EACC9F7941B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.LinkedTokenSource", "Asynchronous.LinkedTokenSource\Asynchronous.LinkedTokenSource.csproj", "{C9757B0E-40A5-463D-8068-46A3B4AB6482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.LinkedTokenSource", "Asynchronous.LinkedTokenSource\Asynchronous.LinkedTokenSource.csproj", "{C9757B0E-40A5-463D-8068-46A3B4AB6482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.TaskWait", "Asynchronous.TaskWait\Asynchronous.TaskWait.csproj", "{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.TaskWait", "Asynchronous.TaskWait\Asynchronous.TaskWait.csproj", "{38DC7E6F-4BB9-4EA5-A21C-B07BF87D864B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ContinueWith", "Asynchronous.ContinueWith\Asynchronous.ContinueWith.csproj", "{59D30EDA-E13E-4A80-A83A-40473354D7FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ContinueWith", "Asynchronous.ContinueWith\Asynchronous.ContinueWith.csproj", "{59D30EDA-E13E-4A80-A83A-40473354D7FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ParallelLinq", "Asynchronous.ParallelLinq\Asynchronous.ParallelLinq.csproj", "{6FDBC0F3-6D40-4617-94A2-B99283753588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ParallelLinq", "Asynchronous.ParallelLinq\Asynchronous.ParallelLinq.csproj", "{6FDBC0F3-6D40-4617-94A2-B99283753588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadPoolThreadCount", "Asynchronous.ThreadPoolThreadCount\Asynchronous.ThreadPoolThreadCount.csproj", "{67D51CC2-FBBD-4967-9547-41E816611C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ThreadPoolThreadCount", "Asynchronous.ThreadPoolThreadCount\Asynchronous.ThreadPoolThreadCount.csproj", "{67D51CC2-FBBD-4967-9547-41E816611C7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.AsyncFunctionsInit", "Asynchronous.AsyncFunctionsInit\Asynchronous.AsyncFunctionsInit.csproj", "{9A514122-662E-44B6-ADFE-61DC3F39DCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.AsyncFunctionsInit", "Asynchronous.AsyncFunctionsInit\Asynchronous.AsyncFunctionsInit.csproj", "{9A514122-662E-44B6-ADFE-61DC3F39DCF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.EventBasedModelToTask", "Asynchronous.EventBasedModelToTask\Asynchronous.EventBasedModelToTask.csproj", "{DF35FBC6-F458-4BF5-9560-D421701A8276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.EventBasedModelToTask", "Asynchronous.EventBasedModelToTask\Asynchronous.EventBasedModelToTask.csproj", "{DF35FBC6-F458-4BF5-9560-D421701A8276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SingleInstanceApp", "Asynchronous.SingleInstanceApp\Asynchronous.SingleInstanceApp.csproj", "{B69B7F4A-226D-456F-BD0E-7065558EBB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.SingleInstanceApp", "Asynchronous.SingleInstanceApp\Asynchronous.SingleInstanceApp.csproj", "{B69B7F4A-226D-456F-BD0E-7065558EBB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.SyncConstructSpeedTest", "Asynchronous.SyncConstructSpeedTest\Asynchronous.SyncConstructSpeedTest.csproj", "{B35F1008-6505-442C-B050-751176A66BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.SyncConstructSpeedTest", "Asynchronous.SyncConstructSpeedTest\Asynchronous.SyncConstructSpeedTest.csproj", "{B35F1008-6505-442C-B050-751176A66BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.ThreadSafeSingleton", "Asynchronous.ThreadSafeSingleton\Asynchronous.ThreadSafeSingleton.csproj", "{653F09BF-A513-4209-83E7-F0D22FEC116B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ThreadSafeSingleton", "Asynchronous.ThreadSafeSingleton\Asynchronous.ThreadSafeSingleton.csproj", "{653F09BF-A513-4209-83E7-F0D22FEC116B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.Blocking_Collection", "Asynchronous.Blocking_Collection\Asynchronous.Blocking_Collection.csproj", "{02EA6770-4EE4-4602-ACA4-7861A8348EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.Blocking_Collection", "Asynchronous.Blocking_Collection\Asynchronous.Blocking_Collection.csproj", "{02EA6770-4EE4-4602-ACA4-7861A8348EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_01", "Threads_01\Threads_01.csproj", "{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_02_Optimization", "Threads_02_Optimization\Threads_02_Optimization.csproj", "{AC429FE9-5517-4715-871F-6F9B4939A977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,8 +103,19 @@ Global
 		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02EA6770-4EE4-4602-ACA4-7861A8348EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC429FE9-5517-4715-871F-6F9B4939A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC429FE9-5517-4715-871F-6F9B4939A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC429FE9-5517-4715-871F-6F9B4939A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC429FE9-5517-4715-871F-6F9B4939A977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFE9F0F3-6485-42BD-A70E-C5A08C2FA728}
 	EndGlobalSection
 EndGlobal

@@ -5,25 +5,27 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQToObjects", "LINQToObjects\LINQToObjects.csproj", "{4CD7287F-45ED-4549-AD0E-9B25B86AA78F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Linq", "01_Linq\01_Linq.csproj", "{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Linq", "01_Linq\01_Linq.csproj", "{43B6AB8F-BA2F-4CD3-90C4-AE92DFCDBCDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_AnonymousTypes_ValueTuples", "02_AnonymousTypes_ValueTuples\02_AnonymousTypes_ValueTuples.csproj", "{779EBBBB-197A-472A-AFA0-1B746EE2D62A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AnonymousTypes_ValueTuples", "02_AnonymousTypes_ValueTuples\02_AnonymousTypes_ValueTuples.csproj", "{779EBBBB-197A-472A-AFA0-1B746EE2D62A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expressions", "Expressions", "{8A8EF7FB-6A21-4657-98AF-87377CFAACD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Expressions", "01_Expressions\01_Expressions.csproj", "{CC7D0B60-C829-41BB-811A-BABBA0E59E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Expressions", "01_Expressions\01_Expressions.csproj", "{CC7D0B60-C829-41BB-811A-BABBA0E59E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Common_Expressions", "_Common_Expressions\_Common_Expressions.csproj", "{C7E44AB9-B086-4993-9815-54B23FE0EAD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Common_Expressions", "_Common_Expressions\_Common_Expressions.csproj", "{C7E44AB9-B086-4993-9815-54B23FE0EAD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Expressions", "02_Expressions\02_Expressions.csproj", "{A5F31161-F0DE-41C5-9A76-5EE477456005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Expressions", "02_Expressions\02_Expressions.csproj", "{A5F31161-F0DE-41C5-9A76-5EE477456005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Expressions", "03_Expressions\03_Expressions.csproj", "{2B813789-8E03-4A0C-9397-2A1B2400907A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Expressions", "03_Expressions\03_Expressions.csproj", "{2B813789-8E03-4A0C-9397-2A1B2400907A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Expressions_Convert", "04_Expressions_Convert\04_Expressions_Convert.csproj", "{267AC93D-C36A-4804-8ACE-6AFACE777809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Expressions_Convert", "04_Expressions_Convert\04_Expressions_Convert.csproj", "{267AC93D-C36A-4804-8ACE-6AFACE777809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Expressions_Visitor", "05_Expressions_Visitor\05_Expressions_Visitor.csproj", "{AFB36EB6-4DD8-4EE9-8D84-2E5FA8800383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Expressions_Visitor", "05_Expressions_Visitor\05_Expressions_Visitor.csproj", "{AFB36EB6-4DD8-4EE9-8D84-2E5FA8800383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Expressions_Extensions", "06_Expressions_Extensions\06_Expressions_Extensions.csproj", "{D6872255-5716-4B64-8A9E-6A1ABB6A0527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Expressions_Extensions", "06_Expressions_Extensions\06_Expressions_Extensions.csproj", "{D6872255-5716-4B64-8A9E-6A1ABB6A0527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Expressions_Copy", "07_Expressions_Copy\07_Expressions_Copy.csproj", "{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{D6872255-5716-4B64-8A9E-6A1ABB6A0527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6872255-5716-4B64-8A9E-6A1ABB6A0527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6872255-5716-4B64-8A9E-6A1ABB6A0527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{267AC93D-C36A-4804-8ACE-6AFACE777809} = {8A8EF7FB-6A21-4657-98AF-87377CFAACD4}
 		{AFB36EB6-4DD8-4EE9-8D84-2E5FA8800383} = {8A8EF7FB-6A21-4657-98AF-87377CFAACD4}
 		{D6872255-5716-4B64-8A9E-6A1ABB6A0527} = {8A8EF7FB-6A21-4657-98AF-87377CFAACD4}
+		{B5E81D45-60D5-4AFF-992C-D419B7C4A6A0} = {8A8EF7FB-6A21-4657-98AF-87377CFAACD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5331852-07E0-4233-830A-733D05BEA92B}

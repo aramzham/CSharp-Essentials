@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.ThreadSafeSing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous.Blocking_Collection", "Asynchronous.Blocking_Collection\Asynchronous.Blocking_Collection.csproj", "{02EA6770-4EE4-4602-ACA4-7861A8348EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_01", "Threads_01\Threads_01.csproj", "{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads_01", "Threads_01\Threads_01.csproj", "{9983F5D0-E413-4A44-8F20-0C0BFD1ADABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_02_Optimization", "Threads_02_Optimization\Threads_02_Optimization.csproj", "{AC429FE9-5517-4715-871F-6F9B4939A977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads_02_Optimization", "Threads_02_Optimization\Threads_02_Optimization.csproj", "{AC429FE9-5517-4715-871F-6F9B4939A977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous.Enumerable", "Asynchronous.Enumerable\Asynchronous.Enumerable.csproj", "{A664C08A-84C2-4AFB-A80C-A8259B7F26B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{AC429FE9-5517-4715-871F-6F9B4939A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC429FE9-5517-4715-871F-6F9B4939A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC429FE9-5517-4715-871F-6F9B4939A977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A664C08A-84C2-4AFB-A80C-A8259B7F26B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A664C08A-84C2-4AFB-A80C-A8259B7F26B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A664C08A-84C2-4AFB-A80C-A8259B7F26B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A664C08A-84C2-4AFB-A80C-A8259B7F26B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

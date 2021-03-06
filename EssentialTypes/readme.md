@@ -31,11 +31,21 @@
       * Elements and/or their state can be modified
 
 ## Stack<T>
-   * Represents a variable size last-in-first-out (LIFO) collection of instance of the same specified type
+   * Represents a variable size last-in-first-out (LIFO) collection of instances of the same specified type
    * Peek and Pop are O(1) operations
    * Push is O(1) if the size is less than capacity, otherwise O(n)
    * Allows nulls and duplicate values
    * Implemented the same way as the List<T>
+   * During enumeration:
+      * Size and elements can't be modified
+      * Element state can be modified
+
+## Queue<T>
+   * Represents a variable size first-in-first-out (FIFO) collection of instances of the same specified type
+   * Peek and Dequeue are O(1) operations
+   * Enqueue is O(1) if the size is less than capacity, otherwise O(n)
+   * Allows nulls and duplicate values
+   * Implemented as a circular array
    * During enumeration:
       * Size and elements can't be modified
       * Element state can be modified

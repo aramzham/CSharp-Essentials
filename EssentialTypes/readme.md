@@ -20,3 +20,12 @@
    * Mostly behaves like ArrayList and has the following benefits
       * Is type-safe
       * For value types compiler generates a specific implementation that avoids boxing/unboxing
+
+## LinkedList<T>
+   * Represents a doubly linked list
+   * Item insertion/removal are O(1) operations
+   * Doesn't support chaining, splitting or cycles
+   * Internally nodes are kept in a cycle, however list.Last.Next == null and list.First.Previous == null
+   * During enumeration:
+      * Size can't be modified
+      * Elements and/or their state can be modified

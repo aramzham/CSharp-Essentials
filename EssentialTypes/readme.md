@@ -12,3 +12,11 @@
 * During enumeration:
     * array size cannot be modified (it's always fixed!)
     * array elements and their state can be modified
+
+## List<T>
+   * A strongly typed list of objects that can be accessed by index
+   * Provides methods to search, sort and manipulate lists
+   * Implements the IList<T> generic interface using an array whose size is dynamically increased as required
+   * Mostly behaves like ArrayList and has the following benefits
+      * Is type-safe
+      * For value types compiler generates a specific implementation that avoids boxing/unboxing

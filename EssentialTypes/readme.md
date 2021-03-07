@@ -12,3 +12,40 @@
 * During enumeration:
     * array size cannot be modified (it's always fixed!)
     * array elements and their state can be modified
+
+## List<T>
+   * A strongly typed list of objects that can be accessed by index
+   * Provides methods to search, sort and manipulate lists
+   * Implements the IList<T> generic interface using an array whose size is dynamically increased as required
+   * Mostly behaves like ArrayList and has the following benefits
+      * Is type-safe
+      * For value types compiler generates a specific implementation that avoids boxing/unboxing
+
+## LinkedList<T>
+   * Represents a doubly linked list
+   * Item insertion/removal are O(1) operations
+   * Doesn't support chaining, splitting or cycles
+   * Internally nodes are kept in a cycle, however list.Last.Next == null and list.First.Previous == null
+   * During enumeration:
+      * Size can't be modified
+      * Elements and/or their state can be modified
+
+## Stack<T>
+   * Represents a variable size last-in-first-out (LIFO) collection of instances of the same specified type
+   * Peek and Pop are O(1) operations
+   * Push is O(1) if the size is less than capacity, otherwise O(n)
+   * Allows nulls and duplicate values
+   * Implemented the same way as the List<T>
+   * During enumeration:
+      * Size and elements can't be modified
+      * Element state can be modified
+
+## Queue<T>
+   * Represents a variable size first-in-first-out (FIFO) collection of instances of the same specified type
+   * Peek and Dequeue are O(1) operations
+   * Enqueue is O(1) if the size is less than capacity, otherwise O(n)
+   * Allows nulls and duplicate values
+   * Implemented as a circular array
+   * During enumeration:
+      * Size and elements can't be modified
+      * Element state can be modified

@@ -49,3 +49,14 @@
    * During enumeration:
       * Size and elements can't be modified
       * Element state can be modified
+
+## HashSet<T>
+   * Data is stored in a hash table. Uses Object.GetHashCode as a hash function and the lower 31 bits of the hash code.
+   * Object state used to define hash code must be immutable while object is in the HashSet.
+   * Use HashCode.Combine to generate a good hash code for a type based on its fields.
+   * Size is dynamically increased as required.
+   * Capacity is always prime - during resizing the capacity is chosen as the next prime number greater than double of last capacity.
+   * During enumeration:
+      * order is not defined, iterates over slots array
+      * elements can't added or removed
+      * element state can be modified if hash code stays the same

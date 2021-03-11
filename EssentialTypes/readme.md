@@ -60,3 +60,19 @@
       * order is not defined, iterates over slots array
       * elements can't added or removed
       * element state can be modified if hash code stays the same
+
+## ConcurentStack<T>
+   * Is a lock free, thread-safe LIFO collection of objects.
+   * All public and protected members are thread-safe and may be used concurrently from multiple threads.
+   * Uses only Interlocked (compare-and-swap, CAS) and spin locks.
+   * Data is stored in a single-linked list of nodes
+
+## ConcurrentQueue<T>
+   * Is a lock-free, thread-safe FIFO collection of objects.
+   * Uses only Interlocked (compare-and-swap, CAS) and spin locks.
+   * Data is stored in a linked list of small arrays called segments.
+   * **Enumeration of last two**
+      * The enumeration represents a moment-in-time snapshot of the contents of the collection.
+      * It does not reflect any updates to the collection after GetEnumerator was called
+      * The enumerator is safe to use concurrently with reads from and writes to the collection
+      * Under the hood uses iterator method and yield returns elements stored in the internal data structure.

@@ -76,3 +76,33 @@
       * It does not reflect any updates to the collection after GetEnumerator was called
       * The enumerator is safe to use concurrently with reads from and writes to the collection
       * Under the hood uses iterator method and yield returns elements stored in the internal data structure.
+
+## ConcurrentBag<T>
+   * Useful for storing objects when ordering doesn't matter.
+   * Unlike sets, bags **do** support duplicates.
+   * Unlike sets, bags **do not** support Contains, Remove, etc.
+   * All public and protected members are thread-safe and may be used concurrently from multiple threads.
+   * Optimized for scenarios where the same thread will be both producing and consuming data stored in the bag.
+   * Under the hood creates a new list and uses its enumerator
+   * Count, GetEnumerator, etc. freeze the collection
+
+## ConcurrentDictionary<TKey, TValue>
+   * Implements IDictionary<TKey, TValue> interface.
+   * Provides the following additional methods: TryAdd, TryUpdate, AddOrUpdate, GetOrAdd
+   * Uses fine-grained locking when adding to or updating data in the dictionary, but it's entirely lock-free for read operations.
+   * Conceptually uses hash table to store elements internally.
+   * Enumeration **does not** represent a moment-in-time snapshot of the contents of the bag.
+   * The contents exposed through the enumerator may contain modifications made to the dictionary after GetEnumerator was called.
+   * The enumerator is safe to use concurrently with reads from and writes to the dictionary.
+   * Under the hood uses Iterator method and yield returns elements stored in the internal data structure.
+
+## IProducerConsumerCollection<T>
+   * Defines methods to manipulate thread-safe collections intended for producer/consumer usage (one thread adds jobs, another takes and does them).
+   * For example: TryAdd(T), TryTake(T), GetEnumerator, etc.
+   * Provides a unified representation for producer/consumer collections so that higher level abstractions such as BlockingCollection<T> can use the colleciton as the underlying storage mechanism.
+
+## BlockingCollection<T>
+   * Provides blocking and bounding capabilities for thread-safe collections that implement IProducerConsumerCollection<T>.
+   * Allows removal attempts from the collection to block until is available to be removed.
+   * A producing thread can call the *CompleteAdding* method to indicate that no more items will be added (all waiting threads will be released).
+   * Can enforce an upper bound on the number of data elements allowed in the collection; addition attempts to the collection may then block until space is available.

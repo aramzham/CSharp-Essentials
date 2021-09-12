@@ -14,3 +14,10 @@ We can clearly see that while using synchronous programming we are blocking the 
 
 **2)** Asynchronous programming provides us the possibility to make the user happier as it won't see anything like that (f.e. `(Not responding)` application or maybe he'll do something while the page is loading).
 ![gif](https://cloud.githubusercontent.com/assets/25085025/22598669/a85048b2-ea4d-11e6-965b-cc364ceff928.gif)
+
+Some advices for using async code in .net:
+* Do not use `.Wait()` or `.Result` if you don't want to get aggregated exceptions, use `.GetAwaiter().GetResult()` for better exception experience
+* In fire-and-forget tasks your exceptions will be swallowed, if you don't want it to happen use `.SafeFireAndForget()` in *AsyncAwaitBestPractices* nuget package
+* Avoid `return await` statements. If there's only one statement in the method just return a task of the return type. Thus you'll get a little performance boost (in context switching) and less memory consumption (you'll save about 100b when creating state machine). Exceptions are `try/catch` and `using(...)` blocks
+* If you don't care which thread should continue the code after `await` use `.ConfigureAwait(false)`
+* Use `System.Threading.Tasks.Extensions.ValueTask` whenever a method might not hit `await`
